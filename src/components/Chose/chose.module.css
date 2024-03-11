@@ -1,0 +1,32 @@
+.chose{
+    background-color: #FFFBEB;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.container{
+    height: 100%;
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.advantagesWrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.img{
+    width: 150px;
+    height: 150px; 
+}
+
+
+@media only screen and (max-width: 1440px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .container{
+        max-width: 900px;
+    }
+}

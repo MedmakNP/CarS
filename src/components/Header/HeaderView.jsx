@@ -14,11 +14,11 @@ function HeaderView({navigation}){
                         <button type='button' className={style.buttonTheme} onClick={toggleTheme}> {type} </button>
                     </div>
                     <div className={style.menu}>
-                        <p type = 'button' className={style.text} onClick={() => navigation(0)}>Home</p>
-                        <p type = 'button' className={style.text} onClick={() => navigation(1000)}>About Us</p>
-                        <p type = 'button' className={style.text} onClick={() => navigation(1800)}>Services</p>
-                        <p type = 'button' className={style.text} onClick={() => navigation(2000)}>Stock</p>
-                        <p type = 'button' className={style.text} onClick={() => navigation(2500)}>Contact Us</p>
+                        <p type = 'button' className={style.text} >Home</p>
+                        <p type = 'button' className={style.text} >About Us</p>
+                        <p type = 'button' className={style.text} >Services</p>
+                        <p type = 'button' className={style.text} >Stock</p>
+                        <p type = 'button' className={style.text} >Contact Us</p>
                         <button className={style.button}>Login</button>
                     </div>
             </div>
